@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    background-image: url(https://www.emptyspace.photo/assets/images/dot-grid.svg);
+    background-repeat: repeat;
+}
+
+
+
+.surmoi {
+    background-color: white;
+    font-size: 500%;
+    text-align: center;
+    transition: all, 0.5s;
+    cursor: pointer;
+}
+
+
+h1:hover {
+    color: #0000EE;
+    transition: 0.5s;
+}
+
+p:hover {
+    color: #0000EE;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+.list {
+    display: flex;
+    justify-content: center; /* Equal space between items */
+    padding: 10px; /* Optional: add padding for better spacing */
+    width: 100%; /* Ensures full-width container for equal spacing */
+}
+
+.content {
+    padding: 1px;
+    margin: auto;
+    background-color: white;
+    font-size: 500%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    color: #0000EE;
+    transition: 0.5s;
+}
+
+
+div.foto-port {
+    display: flex; 
+    padding: 10%;
+    background-color: transparent;
+    gap: 10%;
+}
+
+
+.beskrivelse {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+    margin: 0%;
+}
+
+.first {
+    margin-top: auto;
+    padding: 1px;
+    margin-bottom: 0%;
+    background-color: white;
+}
+
+
+.second {
+    padding: 1px;
+    background-color: white;
+    font-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+
+@media only screen and (max-width: 414px){
+    .beskrivelse {
+        visibility: collapse;
+    }
+}
+
