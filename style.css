@@ -96,9 +96,10 @@ div.foto-port {
 }
 
 
-@media only screen and (max-width: 414px){
-    .beskrivelse {
-        visibility: collapse;
+@media only screen and (max-width: 1280px){
+    .foto {
+        height: 800px;
     }
-}
 
+
+}
