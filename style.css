@@ -6,19 +6,27 @@ body {
 }
 
 
+main {
+    margin: auto;
+    max-width: 1200px;
+}
+
 
 .surmoi {
     background-color: white;
     font-size: 500%;
     text-align: center;
-    transition: all, 0.5s;
+    transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
 
 
-h1:hover {
+
+
+
+.Bonjour:hover {
     color: #0000EE;
-    transition: 0.5s;
+    transition: all 0.5s ease-in-out;
 }
 
 p:hover {
@@ -28,6 +36,16 @@ p:hover {
 
 
 
+
+img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05); /* Image zoom on hover */
+}
 
 
 
@@ -39,11 +57,11 @@ p:hover {
 }
 
 .content {
-    padding: 1px;
+    padding: 20px;
     margin: auto;
     background-color: white;
     font-size: 500%;
-    transition: all 0.5s;
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -56,17 +74,20 @@ a {
     text-align: center;
     text-decoration: none;
     color: black;
+    transition: all 0.5s ease-in-out;
 }
 
 
 a:hover {
-    color: #0000EE;
-    transition: 0.5s;
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 
 div.foto-port {
-    display: flex; 
     padding: 10%;
     background-color: transparent;
     gap: 10%;
@@ -74,16 +95,16 @@ div.foto-port {
 
 
 .beskrivelse {
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 350%;
-    margin: 0%;
 }
 
 .first {
-    margin-top: auto;
     padding: 1px;
     margin-bottom: 0%;
     background-color: white;
+    max-width: 400px;
 }
 
 
@@ -93,13 +114,67 @@ div.foto-port {
     font-size: 50%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
+    max-width: 400px;
 }
 
 
-@media only screen and (max-width: 1280px){
-    .foto {
-        height: 800px;
-    }
 
 
+
+
+
+
+
+header {
+    padding: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 0px;
+    transition: 0.5s;
+}
+
+
+nav {
+    text-align: center;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    column-gap: 10px;
+}
+
+
+.headbutton a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 120%;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.headbutton a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.styled-letter:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
 }
