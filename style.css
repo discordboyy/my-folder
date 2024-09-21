@@ -49,42 +49,12 @@ img:hover {
 
 
 
-.list {
-    display: flex;
-    justify-content: center; /* Equal space between items */
-    padding: 10px; /* Optional: add padding for better spacing */
-    width: 100%; /* Ensures full-width container for equal spacing */
-}
-
-.content {
-    padding: 20px;
-    margin: auto;
-    background-color: white;
-    font-size: 500%;
-    transition: 0.5s;
-    cursor: pointer;
-}
 
 
 
 
 
 
-a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    transition: all 0.5s ease-in-out;
-}
-
-
-a:hover {
-    background-color: #000000;
-    color: #ffffff;
-    transition: all 0.4s ease-in-out;
-    border-radius: 8px;
-    padding: 10px;
-}
 
 
 div.foto-port {
